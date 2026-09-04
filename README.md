@@ -45,7 +45,7 @@ AI/BI Dashboard
        v
 Business Insights
 
-☁️ Azure-to-Databricks Architecture Mapping
+##☁️ Azure-to-Databricks Architecture Mapping
 
 | Azure Concept                | Databricks Implementation     |
 | ---------------------------- | ----------------------------- |
@@ -57,7 +57,7 @@ Business Insights
 | Power BI                     | Databricks AI/BI Dashboard    |
 | Azure Monitor                | Job & Data Quality Monitoring |
 
-🔄 Data Pipeline
+##🔄 Data Pipeline
 1. Bronze — Data Ingestion
 
 The raw Railway_info.csv file is loaded from the Databricks Volume into a Bronze Delta table.
@@ -111,7 +111,7 @@ gold_train_category
 
 These tables support reporting, visualization, and business analysis.
 
-⚙️ Workflow Orchestration
+##⚙️ Workflow Orchestration
 
 The complete pipeline is orchestrated using a Databricks Lakeflow Job.
 
@@ -124,7 +124,7 @@ Data_Quality
 Gold_Analytics
 Each stage runs according to task dependencies.
 
-📊 Key Analytics
+##📊 Key Analytics
 
 The project analyzes:
 
@@ -137,7 +137,7 @@ Train activity by day
 Weekday vs weekend activity
 Top railway routes
 
-📈 Dashboard
+##📈 Dashboard
 
 The Databricks AI/BI dashboard contains:
 
@@ -149,7 +149,7 @@ Top 10 Source Stations
 Weekday vs Weekend Train Records
 Top 10 Train Routes
 
-🧪 Data Quality
+##🧪 Data Quality
 
 The project validates the data before generating Gold-layer analytics.
 
@@ -166,7 +166,7 @@ Quality Gate
 PASS → Gold Layer
 FAIL → Pipeline Stops
 
-🛠️ Technologies
+##🛠️ Technologies
 
 Databricks
 PySpark
@@ -180,7 +180,7 @@ Databricks AI/BI Dashboards
 Data Quality
 Azure Data Engineering Concepts
 
-📁 Project Structure
+##📁 Project Structure
 Railway-Data-Engineering-Databricks/
 │
 ├── README.md
